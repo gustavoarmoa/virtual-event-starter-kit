@@ -17,7 +17,7 @@
 export const SITE_URL = 'https://demo.vercel.events';
 export const SITE_ORIGIN = process.env.NEXT_PUBLIC_SITE_ORIGIN || new URL(SITE_URL).origin;
 export const TWITTER_USER_NAME = 'vercel';
-export const BRAND_NAME = 'ACME';
+export const BRAND_NAME = 'Epapu';
 export const SITE_NAME_MULTILINE = ['ACME', 'Conf'];
 export const SITE_NAME = 'ACME Conf';
 export const META_DESCRIPTION =
@@ -41,27 +41,27 @@ export const REPO = 'https://github.com/vercel/virtual-event-starter-kit';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
   {
-    name: 'Stage A',
+    name: 'Vendas',
     route: '/stage/a'
   },
   {
-    name: 'Stage C',
+    name: 'Marketing',
     route: '/stage/c'
   },
   {
-    name: 'Stage M',
+    name: 'Conversão',
     route: '/stage/m'
   },
   {
-    name: 'Stage E',
+    name: 'Ads',
     route: '/stage/e'
   },
   {
-    name: 'Schedule',
+    name: 'Programação',
     route: '/schedule'
   },
   {
-    name: 'Speakers',
+    name: 'Palestrantes',
     route: '/speakers'
   },
   {
@@ -69,7 +69,7 @@ export const NAVIGATION = [
     route: '/expo'
   },
   {
-    name: 'Jobs',
+    name: 'Empregos',
     route: '/jobs'
   }
 ];
